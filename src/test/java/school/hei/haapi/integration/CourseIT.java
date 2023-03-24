@@ -39,7 +39,10 @@ import static school.hei.haapi.integration.conf.TestUtils.setUpCognito;
 @ContextConfiguration(initializers = CourseIT.ContextInitializer.class)
 @AutoConfigureMockMvc
 class CourseIT {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 016951d775c2f3d344647bc33e191fe1ca87483a
   @MockBean
   private SentryConf sentryConf;
   @MockBean
@@ -191,6 +194,7 @@ class CourseIT {
       return SERVER_PORT;
     }
   }
+<<<<<<< HEAD
 
 
 */
